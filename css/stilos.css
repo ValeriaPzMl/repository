@@ -9,6 +9,13 @@ img{
     border-style: groove;
     border-color: #050931;
 }
+.lis{
+    display: inline-block;
+}
+.lis ul li{
+    font-weight: bolder;
+    color: #050931;
+}
 .flags{
     width: 100px;
     height: 100%;
@@ -32,7 +39,7 @@ p{
 }
 table{
     width: 100%;
-    align-self: center;
+    text-align: left;
 }
 .lok{
     text-align: center;
