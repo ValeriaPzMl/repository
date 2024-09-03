@@ -1,7 +1,9 @@
 body{
     background: rgb(163,232,109);
     background: linear-gradient(0deg, rgba(163,232,109,1) 0%, rgba(238,198,110,1) 100%);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Merriweather', serif;
+    align-items: center;
+    text-align: center;
 }
 img{
     height: 150px;
@@ -14,7 +16,6 @@ img{
 }
 .lis ul li{
     font-weight: bolder;
-    color: #050931;
 }
 .flags{
     width: 100px;
@@ -23,19 +24,26 @@ img{
 }
 h1{
     text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: #050931;
+    font-size: 5.5rem;
+    margin: 50px;
 }
 h2{
     color: #152805;
-}
-h2:hover{
-    color: #305c0c;
+    font-family:'Merriweather', serif;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
 }
 h3{
- 
+    font-family:'Merriweather', serif;
     color:#183215;
 }
-p{
-    font-size: large;
+hr{
+    border-width: 6px;
+    border-color: #EAF6F6;
+    border-style: dotted;
+    width: 4%;
 }
 table{
     width: 100%;
@@ -43,4 +51,19 @@ table{
 }
 .lok{
     text-align: center;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #183215;
+}
+div div{
+    background-color: #21212157;
+}
+.forr{
+    border-style: dotted;
+    border-color: #050931;
+    background-color: #0509318e !important;
 }
