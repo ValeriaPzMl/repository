@@ -55,15 +55,77 @@ table{
 a{
     text-decoration: none;
     font-weight: bold;
+    color: #050931;
+}
+.logos{
+    width:100px;
+    height:100px;
+    border-radius:50px;
 }
 a:hover{
     color: #183215;
 }
-div div{
-    background-color: #21212157;
+.even{
+    background-color: #92ce6d57;
+}
+.odd{
+    background-color: #596db057;
 }
 .forr{
     border-style: dotted;
     border-color: #050931;
     background-color: #0509318e !important;
 }
+.mon{
+    background-image: url('https://mint57.com/wp-content/uploads/2019/02/kirguistan-day_2_photo_2-AK.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.nub{
+    position: sticky;
+    top:50px;
+    border: 0px;
+}
+input{
+    border-radius: 5px;
+    background-color: #305a2c;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
